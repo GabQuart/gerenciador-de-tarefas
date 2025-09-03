@@ -28,7 +28,8 @@ The main goal of this project is to practice programming logic, list manipulatio
 ---
 
 ## 🚀 Como executar / How to run  
-1. Clone este repositório / Clone this repository  
-   ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
-   cd nome-do-repositorio
+1. Apenas faça download da pasta do arquivo ou clone o repositório (como preferir), depois abra a pasta baixada e vá ate o diretório -dist-. 
+Feito isso, apenas clique duas vezes no programa e ele executará no seu prompt de comando.
+
+1. Just download the project folder or clone the repository (as you prefer), then open the downloaded folder and go to the -dist- directory.
+After that, simply double-click the program and it will run in your command prompt.
