@@ -65,12 +65,13 @@ def menu_show():
             resultado = cursor.fetchall() # Obtém todos os resultados da consulta
             
             # Exibe o submenu de tarefas
-            print("=" * 40)
-            print("🕵️  Suas tarefas".center(40))
-            print("=" * 40)
+            
             
             # Sub-loop para o menu de gerenciamento de tarefas
             while True:
+                print("=" * 40)
+                print("🕵️  Suas tarefas".center(40))
+                print("=" * 40)
                 line = False
                 titulos = ["ID", "Tarefa", "Descrição", "Status", "Data de Criação"]
                 print("\n")
@@ -189,4 +190,5 @@ def menu_show():
 menu_show()
 
 # Fecha a conexão com o banco de dados ao final do programa
+
 conn.close()
